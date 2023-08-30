@@ -14,9 +14,7 @@
       e.date = new Date(e.date).toLocaleString("en-US", {
         timeZone: "America/New_York",
       });
-      // let utc = new Date(e.date).getTimezoneOffset() * 60000;
-      // e.date = new Date(utc + 3600000 * -5.0);
-      // console.log(e.date);
+
       const date = e.date.split(",")[0];
       if (dates[date]) {
         dates[date] = [e, ...dates[date]];
