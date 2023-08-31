@@ -1,3 +1,10 @@
+# X(twitter) post archive for @dennylovesthis
+
+This is an archive site for old posts. I mainly got tired of looking through posts and seeing words. It slowly turned into a toilet that I knew people would smell rather than a celebration of creation and a vehicle for inspiration. That and I feel the site falls short on engaging me in any meaningful way in general due to various factors. Currently building out a personal post creation site and treating X as a satelite content aggregator with limited personal interaction.
+
+<details>
+  <summary>Default Svelte Markdown</summary>
+  
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
@@ -45,3 +52,4 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+</details>
