@@ -1,4 +1,4 @@
-# X(twitter) post archive for @dennylovesthis
+# X(twitter) post archive for [@dennylovesthis](https://www.twitter.com/dennylovesthis)
 
 This is an archive site for old posts. I mainly got tired of looking through posts and seeing words. It slowly turned into a toilet that I knew people would smell rather than a celebration of creation and a vehicle for inspiration. That and I feel the site falls short on engaging me in any meaningful way in general due to various factors. Currently building out a personal [post creation site](https://plachenko.github.io/a_void) and treating X as a satelite content aggregator with limited personal interaction -- until elon charges money to post through the API.
 
