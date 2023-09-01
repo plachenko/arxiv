@@ -17,9 +17,9 @@
     margin: 10px 10px;
     background-color: #555;
     padding: 20px;
-    border-radius: 4px;
-    text-align: justify;
+    border-radius: 10px;
     position: relative;
+    text-align: left;
   }
   .thread {
     border-radius: 0px;

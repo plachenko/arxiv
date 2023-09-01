@@ -412,5 +412,23 @@
         "thread": null,
         "date": "2023-07-08T19:47:49.000Z",
         "post": "Hey twitter. Hope yall are having a great day!"
+    },
+    {
+        "id": "1688231474347077632",
+        "thread": "cont",
+        "date": "2023-08-06T16:52:03.000Z",
+        "post": "I would like to stream again but i just cant find an entertaining flow. I like when people hang out but i need more than that if i stream. Hangout streams are too boring. I only wanted to help make streams amazing. All i get in return are complaints and pain"
+    },
+    {
+        "id": "1688227575036870656",
+        "thread": "cont",
+        "date": "2023-08-06T16:36:34.000Z",
+        "post": "Does streaming reward me in any meaningful way? It seems like a way to spend hours working on things for people to target me and call my efforts shit. id rather watch and cheer people on."
+    },
+    {
+        "id": "1688233534710759424",
+        "thread": "end",
+        "date": "2023-08-06T17:00:15.000Z",
+        "post": "I might get praise but my brain chooses to focus on the negative."
     }
 ]
