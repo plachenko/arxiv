@@ -3,17 +3,30 @@
   let time = new Intl.DateTimeFormat("en-US", { timeStyle: "short" }).format(
     new Date(post.date)
   );
+
+  let postReplace = post.post
+    .split(" ")
+    .map((e) => "blah")
+    .join(" ");
+
+  let postTxt = postReplace;
+
+  function replaceTxt() {
+    postTxt = post.post;
+  }
 </script>
 
-<div class="post {post.thread ? 'thread' : ''}">
+<div on:click={replaceTxt} class="post {post.thread ? 'thread' : ''}">
   <div class="date">{time}</div>
   <div>
-    {post.post}
+    {postTxt}
   </div>
 </div>
 
 <style>
   .post {
+    min-width: 300px;
+    cursor: pointer;
     margin: 10px 10px;
     background-color: #555;
     padding: 20px;
