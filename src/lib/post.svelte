@@ -4,6 +4,8 @@
     new Date(post.date)
   );
 
+  let clicked = false;
+
   let postReplace = post.post
     .split(" ")
     .map((e) => "blah")
@@ -13,6 +15,7 @@
 
   function replaceTxt() {
     postTxt = post.post;
+    clicked = true;
   }
 </script>
 
@@ -20,10 +23,19 @@
   <div class="date">{time}</div>
   <div>
     {postTxt}
+
+    {#if !clicked}
+      <span id="showTxt">(click to show)</span>
+    {/if}
   </div>
 </div>
 
 <style>
+  #showTxt {
+    color: #777;
+    display: block;
+    padding-top: 10px;
+  }
   .post {
     min-width: 300px;
     cursor: pointer;
