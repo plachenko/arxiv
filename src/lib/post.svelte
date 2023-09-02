@@ -56,7 +56,6 @@
     postTxt = post.post;
     clicked = true;
   }
-  console.log(post.thread);
 </script>
 
 <div

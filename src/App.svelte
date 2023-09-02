@@ -6,6 +6,7 @@
   let xPosts = [];
   let dates = [];
   let groupPosts = [];
+  let charLength = 0;
 
   onMount((e) => {
     xPosts = [...JSON.parse(Postdata)];
@@ -17,6 +18,8 @@
       e.date = new Date(e.date).toLocaleString("en-US", {
         timeZone: "America/New_York",
       });
+
+      charLength += e.post.length;
 
       const date = e.date.split(",")[0];
       if (dates[date]) {
@@ -37,6 +40,7 @@
 
 <main>
   <h1>ar<span id="x">X</span>iv</h1>
+  <span id="void"><span>{charLength}</span> characters thrown to a void</span>
   {#each groupPosts.reverse() as group}
     <div>
       <div class="dateGroup">
@@ -83,5 +87,16 @@
     top: -12px;
     left: 10px;
     padding: 0px 10px;
+  }
+  #void {
+    background-color: #222;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #777;
+  }
+  #void span {
+    color: #ddd;
+    border-bottom: 1px dashed;
   }
 </style>
