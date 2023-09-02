@@ -8,7 +8,37 @@
 
   let postReplace = post.post
     .split(" ")
-    .map((e) => "blah")
+    .map((e) => {
+      let ret = "blah"
+        .split("")
+        .map((e) => {
+          let rand = Math.floor(Math.random() * 20);
+          if (rand > 10) {
+            return e.toUpperCase();
+          } else {
+            return e;
+          }
+        })
+        .join("");
+
+      if (e.includes("...")) {
+        return ret + "...";
+      }
+
+      if (e.includes(".")) {
+        return ret + ".";
+      }
+
+      if (e.includes("?")) {
+        return ret + "?";
+      }
+
+      if (e.includes("!")) {
+        return ret + "!";
+      }
+
+      return ret;
+    })
     .join(" ");
 
   let postTxt = postReplace;
