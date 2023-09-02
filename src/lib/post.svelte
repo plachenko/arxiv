@@ -21,6 +21,10 @@
         })
         .join("");
 
+      for (let i = 0; i < Math.floor(e.length / 4); i++) {
+        ret += ret;
+      }
+
       if (e.includes("...")) {
         return ret + "...";
       }
@@ -66,6 +70,7 @@
     display: block;
     padding-top: 10px;
   }
+
   .post {
     min-width: 300px;
     cursor: pointer;

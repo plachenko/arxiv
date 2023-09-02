@@ -9,6 +9,9 @@
 
   onMount((e) => {
     xPosts = [...JSON.parse(Postdata)];
+    xPosts.sort((a, b) => {
+      return new Date(b.date) - new Date(a.date);
+    });
 
     xPosts.forEach((e) => {
       e.date = new Date(e.date).toLocaleString("en-US", {
@@ -66,7 +69,7 @@
     border-left: 2px solid;
   }
   .dateGroup {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #666;
     width: 100%;
     text-align: left;
     position: relative;
