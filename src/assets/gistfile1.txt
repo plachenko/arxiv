@@ -7,7 +7,7 @@
     },
     {
         "id": "1695374322951434387",
-        "thread": null,
+        "thread": "start",
         "date": "2023-08-26T09:55:11.000Z",
         "post": "Hours turn to days and months and years and it feels I have no personal vision to show the world. Just 'stuff' and too much of it! I've loved pushing visions forward. Really its characters forcing their way out of my mind onto canvas and demanding a voice. Saying yes brings peace"
     },
@@ -31,7 +31,7 @@
     },
     {
         "id": "1694941374980788475",
-        "thread": "cont",
+        "thread": "start",
         "date": "2023-08-25T05:14:48.000Z",
         "post": "One of the reasons I left twitter was because I became manic. Unable to express my feelings and felt completely disrespected-- less than dirt. So I became explosive. Barfing things that have been in my head for months after being fed constant negativity then labeled abusive."
     },
@@ -43,19 +43,19 @@
     },
     {
         "id": "1694924538381742363",
-        "thread": "cont",
+        "thread": "start",
         "date": "2023-08-25T04:07:54.000Z",
         "post": "Sometimes it's extremely emotional for me to see the things I've inspired from extremely talented artists and content creators. I've also inspired creative abuse. It's given me the gift to cry on demand. But where am I going? What was I doing..."
     },
     {
         "id": "1694922381062488277",
-        "thread": "cont",
+        "thread": "end",
         "date": "2023-08-25T03:59:20.000Z",
         "post": "I'm honored that I've inspired so much creativity over the years from multiple creators. It's such a blessing to see. Thank you all!"
     },
     {
         "id": "1694921957542707651",
-        "thread": null,
+        "thread": "start",
         "date": "2023-08-25T03:57:39.000Z",
         "post": "This is a tough night for me! I wish people the best! I'm so glad to see people killing it in life and so sad to see people just stuck in a loop of doing literally the same thing for years letting life kill them. Why am I in a loop? I'm too comfortable! Not doing enough."
     },
@@ -109,13 +109,13 @@
     },
     {
         "id": "1688232514496634880",
-        "thread": null,
         "date": "2023-08-06T16:56:11.000Z",
+        "thread": "cont",
         "post": "\"This content is so boring that i have to pay you to watch.\" This is my future."
     },
     {
         "id": "1688231777758785536",
-        "thread": null,
+        "thread": "cont",
         "date": "2023-08-06T16:53:16.000Z",
         "post": "Its come to a point where every cool idea i have is a waste of time unless i steal it. It really hurts."
     },
@@ -151,7 +151,7 @@
     },
     {
         "id": "1688072941072781312",
-        "thread": null,
+        "thread": "start",
         "date": "2023-08-06T06:22:06.000Z",
         "post": "So many people survive from manipulation its hard to tell when im doing it myself. I want freedom to think. It takes so much energy just to try to ignore malicious abuse of content while people act like its fine. It physically sickens me. All i see Is overconfident weakness."
     },
@@ -175,25 +175,25 @@
     },
     {
         "id": "1687740758588116992",
-        "thread": null,
+        "thread": "cont",
         "date": "2023-08-05T08:22:08.000Z",
         "post": "Fact is you could be doing 'stuff' all day but it's mostly meaningless without true intention. It stunts growth to do meaningless stuff that you'll never build on. It means you're not excited-- you're just doing it to act like it's work. It's just a waste of talent with no sight"
     },
     {
         "id": "1687738852796940289",
-        "thread": null,
+        "thread": "cont",
         "date": "2023-08-05T08:14:33.000Z",
         "post": "You don't need my help. You don't need anyone. You're the only person who can help you most. That starts with good morning routines and better daily habits. I'm not the best at it but I've been making sure no one gets into my morning. Only me. I sleep with the intention to learn."
     },
     {
         "id": "1687737544870334465",
-        "thread": null,
+        "thread": "cont",
         "date": "2023-08-05T08:09:22.000Z",
         "post": "I can't stress how important it is that it stops. You have to forget. Otherwise I can't move on. You can't sort of kind of want to remember. You have to fully commit to forgetting. If time is meaningless memory is everything. You're still hurting me for no reason. I can't help."
     },
     {
         "id": "1687734900302979073",
-        "thread": null,
+        "thread": "cont",
         "date": "2023-08-05T07:58:51.000Z",
         "post": "\"It's so easy to emotionally manipulate you by pressing a button...\" thank you so much for your insight. I'm glad you've been taught by the best these past few years. You're very good at learning."
     },
@@ -205,7 +205,7 @@
     },
     {
         "id": "1687730238485065728",
-        "thread": null,
+        "thread": "start",
         "date": "2023-08-05T07:40:20.000Z",
         "post": "Sobriety is incredibly important to mental health. Changes in environment helps lead change in all other areas."
     },
@@ -301,7 +301,7 @@
     },
     {
         "id": "1684509722794250243",
-        "thread": "cont",
+        "thread": "start",
         "date": "2023-07-27T10:23:09.000Z",
         "post": "G'morning X! Today im thankful for the people I've taught over the years. I've always thought that sharing knowledge is akin to giving a person power. There is a lot of responsibility attached and if uncareful, people can be abused in many ways since power is attractive."
     },
@@ -331,7 +331,7 @@
     },
     {
         "id": "1683432597223882752",
-        "thread": "cont",
+        "thread": "start",
         "date": "2023-07-24T11:03:02.000Z",
         "post": "Good morning twitter. Today im grateful for my growing desire to create and share. I hope to amplify my gratuity with creation soon. Recently I've felt as if my creations only annoy or hurt. its been difficult moving ideas to paper.  I aim to move past that every day."
     },
@@ -355,7 +355,7 @@
     },
     {
         "id": "1682728120493678592",
-        "thread": null,
+        "thread": "start",
         "date": "2023-07-22T12:23:42.000Z",
         "post": "I do love you all. I just hate the energy that lives in my head. Its constantly bored and making deep connections about the circumstances around me. sometimes all i see is bullying without me being able to fight back in a meaningful way. So i lash out in various ways"
     },
@@ -379,7 +379,7 @@
     },
     {
         "id": "1682724102266658816",
-        "thread": "cont",
+        "thread": "start",
         "date": "2023-07-22T12:07:44.000Z",
         "post": "I need to slowly and deliberately replace my unhinged funny haha thoughts full of negative energy meant to break things down with grateful positive thoughts every day."
     },
@@ -403,7 +403,7 @@
     },
     {
         "id": "1682710676265922560",
-        "thread": null,
+        "thread": "start",
         "date": "2023-07-22T11:14:23.000Z",
         "post": "i want to spread positivity and love. Its so hard for me..."
     },
@@ -414,16 +414,16 @@
         "post": "Hey twitter. Hope yall are having a great day!"
     },
     {
+        "id": "1688227575036870656",
+        "thread": "start",
+        "date": "2023-08-06T16:36:34.000Z",
+        "post": "Does streaming reward me in any meaningful way? It seems like a way to spend hours working on things for people to target me and call my efforts shit. id rather watch and cheer people on."
+    },
+    {
         "id": "1688231474347077632",
         "thread": "cont",
         "date": "2023-08-06T16:52:03.000Z",
         "post": "I would like to stream again but i just cant find an entertaining flow. I like when people hang out but i need more than that if i stream. Hangout streams are too boring. I only wanted to help make streams amazing. All i get in return are complaints and pain"
-    },
-    {
-        "id": "1688227575036870656",
-        "thread": "cont",
-        "date": "2023-08-06T16:36:34.000Z",
-        "post": "Does streaming reward me in any meaningful way? It seems like a way to spend hours working on things for people to target me and call my efforts shit. id rather watch and cheer people on."
     },
     {
         "id": "1688233534710759424",

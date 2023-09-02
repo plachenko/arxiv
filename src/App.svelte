@@ -44,8 +44,8 @@
           {group[0].date.split(",")[0]}
         </span>
       </div>
-      {#each group as post}
-        <Post {post} />
+      {#each group as post, idx}
+        <Post {idx} {post} />
       {/each}
     </div>
   {/each}

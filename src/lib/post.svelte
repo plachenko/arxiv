@@ -1,5 +1,6 @@
 <script>
   export let post;
+  export let idx;
   let time = new Intl.DateTimeFormat("en-US", { timeStyle: "short" }).format(
     new Date(post.date)
   );
@@ -37,6 +38,10 @@
         return ret + "?";
       }
 
+      if (e.includes(",")) {
+        return ret + ",";
+      }
+
       if (e.includes("!")) {
         return ret + "!";
       }
@@ -51,9 +56,16 @@
     postTxt = post.post;
     clicked = true;
   }
+  console.log(post.thread);
 </script>
 
-<div on:click={replaceTxt} class="post {post.thread ? 'thread' : ''}">
+<div
+  on:click={replaceTxt}
+  class="post {post.thread == 'cont' && idx ? 'thread' : ''} {post.thread ==
+  'end'
+    ? 'endThread'
+    : ''} {post.thread == 'start' ? 'startThread' : ''}"
+>
   <div class="date">{time}</div>
   <div>
     {postTxt}
@@ -97,5 +109,14 @@
     top: 0px;
     right: 0px;
     margin-bottom: 10px;
+  }
+
+  .startThread {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .endThread {
+    margin-top: -10px !important;
+    border-top: 2px dashed #999;
+    border-radius: 0px 0px 10px 10px;
   }
 </style>
