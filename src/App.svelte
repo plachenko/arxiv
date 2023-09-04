@@ -7,6 +7,7 @@
   let dates = [];
   let groupPosts = [];
   let charLength = 0;
+  let modal = false;
 
   onMount((e) => {
     xPosts = [...JSON.parse(Postdata)];
@@ -36,23 +37,58 @@
       idx++;
     }
   });
+
+  function toggleModal() {
+    modal = !modal;
+  }
 </script>
 
 <main>
   <h1>ar<span id="x">X</span>iv</h1>
-  <span id="void"><span>{charLength}</span> characters thrown to a void</span>
-  {#each groupPosts.reverse() as group}
-    <div>
-      <div class="dateGroup">
-        <span>
-          {group[0].date.split(",")[0]}
-        </span>
-      </div>
-      {#each group as post, idx}
-        <Post {idx} {post} />
-      {/each}
+  <span id="void" on:click={toggleModal}
+    ><span>{charLength}</span> characters thrown to a void -- what is happening!?</span
+  >
+  {#if modal}
+    <div id="modal">
+      <p>
+        This is an archive of a few old X (twitter) posts I made as <a
+          href="https://www.twitter.com/dennylovesthis">@dennylovesthis</a
+        >
+      </p>
+      <p>
+        I've archived them for personal retrieval but I don't feel as if any of
+        these text based posts sparked inspiration or joy in me or anyone else--
+        many started to seem like insencere verbal toilet content used to purge
+        mental blocks and thrown into a void. That's why it felt right to 'blah'
+        them to remind myself and the world that words are meaningless and
+        action is all there is.
+      </p>
+      <p>
+        The source code to this site can be found <a
+          href="https://www.github.com/plachenko/arxiv">here</a
+        >
+        and the script I used to scrape old timeline posts (text only) can be found
+        <a
+          href="https://gist.github.com/plachenko/4a41777914699704a98ea47b3964099b"
+          >here</a
+        >
+      </p>
+      <p>Thank you for reading these and I hope you have a great day!</p>
     </div>
-  {/each}
+  {:else}
+    {#each groupPosts.reverse() as group}
+      <div>
+        <div class="dateGroup">
+          <span>
+            {group[0].date.split(",")[0]}
+          </span>
+        </div>
+        {#each group as post, idx}
+          <Post {idx} {post} />
+        {/each}
+      </div>
+    {/each}
+  {/if}
 </main>
 
 <style>
@@ -98,5 +134,26 @@
   #void span {
     color: #ddd;
     border-bottom: 1px dashed;
+  }
+
+  #modal {
+    padding: 15px;
+    background-color: #444;
+    border-radius: 10px;
+    margin: 20px auto;
+    min-height: 150px;
+    text-align: left;
+    border: 2px solid #666;
+    max-width: 550px;
+  }
+  #modal p {
+    padding: 0px;
+  }
+  #modal a {
+    display: inline-block;
+    background-color: #333;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #888;
   }
 </style>
