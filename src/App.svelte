@@ -130,10 +130,16 @@
     border-radius: 10px;
     padding: 5px 10px;
     color: #777;
+    cursor: pointer;
   }
   #void span {
     color: #ddd;
     border-bottom: 1px dashed;
+  }
+
+  #void :hover {
+    background-color: #555;
+    color: #000;
   }
 
   #modal {
