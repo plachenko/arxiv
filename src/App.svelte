@@ -57,11 +57,9 @@
       </p>
       <p>
         I've archived them for personal retrieval but I don't feel as if any of
-        these text based posts sparked inspiration or joy in me or anyone else--
-        many started to seem like insencere verbal toilet content used to purge
-        mental blocks and thrown into a void. That's why it felt right to 'blah'
-        them to remind myself and the world that words are meaningless and
-        action is all there is.
+        these text based posts sparked inspiration or joy in me or anyone else.
+        That's why it felt right to 'blah' them to remind myself and the world
+        that words are meaningless and action is all there is.
       </p>
       <p>
         The source code to this site can be found <a
