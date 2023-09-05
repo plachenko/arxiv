@@ -36,6 +36,7 @@
       groupPosts[idx] = dates[key];
       idx++;
     }
+    groupPosts.reverse();
   });
 
   function toggleModal() {
@@ -74,7 +75,7 @@
       <p>Thank you for reading these and I hope you have a great day!</p>
     </div>
   {:else}
-    {#each groupPosts.reverse() as group}
+    {#each groupPosts as group}
       <div>
         <div class="dateGroup">
           <span>
