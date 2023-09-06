@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { fade } from 'svelte/transition';
   import { onMount } from "svelte";
   import Post from "./lib/post.svelte";
   import Postdata from "./assets/gistfile1.txt?raw";
@@ -14,6 +15,7 @@
     xPosts.sort((a, b) => {
       return new Date(b.date) - new Date(a.date);
     });
+
 
     xPosts.forEach((e) => {
       e.date = new Date(e.date).toLocaleString("en-US", {
@@ -50,7 +52,7 @@
     ><span>{charLength}</span> characters thrown to a void -- what is happening!?</span
   >
   {#if modal}
-    <div id="modal">
+    <div id="modal" in:fade={{duration: 400, delay: 300}} out:fade={{duration: 200}}>
       <p>
         This is an archive of a few old X (twitter) posts I made as <a
           href="https://www.twitter.com/dennylovesthis">@dennylovesthis</a
@@ -60,7 +62,7 @@
         I've archived them for personal retrieval but I don't feel as if any of
         these text based posts sparked inspiration or joy in me or anyone else.
         That's why it felt right to 'blah' them to remind myself and the world
-        that words are meaningless and action is all there is.
+        that action is more meaningful than words can ever be.
       </p>
       <p>
         The source code to this site can be found <a
@@ -75,18 +77,20 @@
       <p>Thank you for reading these and I hope you have a great day!</p>
     </div>
   {:else}
-    {#each groupPosts as group}
-      <div>
-        <div class="dateGroup">
-          <span>
-            {group[0].date.split(",")[0]}
-          </span>
+    <div in:fade={{delay: 300, duration: 250}} out:fade={{duration: 300}}>
+      {#each groupPosts as group}
+        <div >
+          <div class="dateGroup">
+            <span>
+              {group[0].date.split(",")[0]}
+            </span>
+          </div>
+          {#each group as post, idx}
+            <Post {idx} {post} />
+          {/each}
         </div>
-        {#each group as post, idx}
-          <Post {idx} {post} />
-        {/each}
-      </div>
-    {/each}
+      {/each}
+    </div>
   {/if}
 </main>
 
